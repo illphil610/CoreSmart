@@ -1,0 +1,6 @@
+framework module Pods_CoreSmart {
+  umbrella header "Pods-CoreSmart-umbrella.h"
+
+  export *
+  module * { export * }
+}

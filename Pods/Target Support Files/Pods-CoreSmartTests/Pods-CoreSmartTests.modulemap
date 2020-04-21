@@ -1,0 +1,6 @@
+framework module Pods_CoreSmartTests {
+  umbrella header "Pods-CoreSmartTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

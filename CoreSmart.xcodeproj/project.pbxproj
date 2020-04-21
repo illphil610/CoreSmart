@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF14AD3C8923D12EE636F9E /* Pods_CoreSmart_CoreSmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE117051DF3887D7018E90D5 /* Pods_CoreSmart_CoreSmartUITests.framework */; };
+		5C8246CD5B8B3895D68F7A9F /* Pods_CoreSmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC310E8D2CE9667F536D2D01 /* Pods_CoreSmart.framework */; };
+		86473BB7EF1FE8C13AD7AB4B /* Pods_CoreSmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4F5060C374B33D3CEA28EA /* Pods_CoreSmartTests.framework */; };
+		D40549D923D37CC700195101 /* MembershipPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40549D823D37CC700195101 /* MembershipPlansViewController.swift */; };
+		D40549DC23D38D5400195101 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40549DB23D38D5400195101 /* TabBarViewController.swift */; };
+		D40BAFAE23D4230A00B4AC21 /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BAFAD23D4230A00B4AC21 /* FactsViewController.swift */; };
+		D40BAFB123D4265300B4AC21 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BAFB023D4265300B4AC21 /* CameraViewController.swift */; };
+		D421471523D3FA6A00DB35EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D421471423D3FA6A00DB35EE /* GoogleService-Info.plist */; };
+		D4A4670B23CBC0DF00000796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4670A23CBC0DF00000796 /* AppDelegate.swift */; };
+		D4A4670D23CBC0DF00000796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4670C23CBC0DF00000796 /* SceneDelegate.swift */; };
+		D4A4671223CBC0DF00000796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A4671023CBC0DF00000796 /* Main.storyboard */; };
+		D4A4671523CBC0DF00000796 /* CoreSmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4A4671323CBC0DF00000796 /* CoreSmart.xcdatamodeld */; };
+		D4A4671723CBC0E100000796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A4671623CBC0E100000796 /* Assets.xcassets */; };
+		D4A4671A23CBC0E100000796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A4671823CBC0E100000796 /* LaunchScreen.storyboard */; };
+		D4A4672523CBC0E100000796 /* CoreSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4672423CBC0E100000796 /* CoreSmartTests.swift */; };
+		D4A4673023CBC0E100000796 /* CoreSmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4672F23CBC0E100000796 /* CoreSmartUITests.swift */; };
+		D4CB01E023D4363A0030B71B /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB01DF23D4363A0030B71B /* MyAccountViewController.swift */; };
+		D4E0C98323D3E17200AE5306 /* HomeViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E0C98223D3E17200AE5306 /* HomeViewContoller.swift */; };
+		D4E0C98623D3EFBC00AE5306 /* UIViewController+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E0C98523D3EFBC00AE5306 /* UIViewController+Extentions.swift */; };
+		D4E0C98823D3F02C00AE5306 /* UIScrollView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E0C98723D3F02C00AE5306 /* UIScrollView+Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4A4672123CBC0E100000796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A466FF23CBC0DF00000796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A4670623CBC0DF00000796;
+			remoteInfo = CoreSmart;
+		};
+		D4A4672C23CBC0E100000796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A466FF23CBC0DF00000796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A4670623CBC0DF00000796;
+			remoteInfo = CoreSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3175649852DAA51551F74657 /* Pods-CoreSmart-CoreSmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmart-CoreSmartUITests.release.xcconfig"; path = "Target Support Files/Pods-CoreSmart-CoreSmartUITests/Pods-CoreSmart-CoreSmartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CBD6BE3BB2DDFC348F5C205 /* Pods-CoreSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmart.debug.xcconfig"; path = "Target Support Files/Pods-CoreSmart/Pods-CoreSmart.debug.xcconfig"; sourceTree = "<group>"; };
+		77D0A5B2C4F48FD05FA714EB /* Pods-CoreSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmart.release.xcconfig"; path = "Target Support Files/Pods-CoreSmart/Pods-CoreSmart.release.xcconfig"; sourceTree = "<group>"; };
+		7EFA06B1891EB7CB872176A4 /* Pods-CoreSmart-CoreSmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmart-CoreSmartUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoreSmart-CoreSmartUITests/Pods-CoreSmart-CoreSmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC310E8D2CE9667F536D2D01 /* Pods_CoreSmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreSmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40549D823D37CC700195101 /* MembershipPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipPlansViewController.swift; sourceTree = "<group>"; };
+		D40549DB23D38D5400195101 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D40BAFAD23D4230A00B4AC21 /* FactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
+		D40BAFB023D4265300B4AC21 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D421471323D3F84800DB35EE /* CoreSmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreSmart.entitlements; sourceTree = "<group>"; };
+		D421471423D3FA6A00DB35EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4A4670723CBC0DF00000796 /* CoreSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A4670A23CBC0DF00000796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4A4670C23CBC0DF00000796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4A4671123CBC0DF00000796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A4671423CBC0DF00000796 /* CoreSmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreSmart.xcdatamodel; sourceTree = "<group>"; };
+		D4A4671623CBC0E100000796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A4671923CBC0E100000796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A4671B23CBC0E100000796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A4672023CBC0E100000796 /* CoreSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A4672423CBC0E100000796 /* CoreSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSmartTests.swift; sourceTree = "<group>"; };
+		D4A4672623CBC0E100000796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A4672B23CBC0E100000796 /* CoreSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A4672F23CBC0E100000796 /* CoreSmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSmartUITests.swift; sourceTree = "<group>"; };
+		D4A4673123CBC0E100000796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CB01DF23D4363A0030B71B /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		D4E0C98223D3E17200AE5306 /* HomeViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewContoller.swift; sourceTree = "<group>"; };
+		D4E0C98523D3EFBC00AE5306 /* UIViewController+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extentions.swift"; sourceTree = "<group>"; };
+		D4E0C98723D3F02C00AE5306 /* UIScrollView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extentions.swift"; sourceTree = "<group>"; };
+		DF4F5060C374B33D3CEA28EA /* Pods_CoreSmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreSmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E97F81E9503AE7DC9CF0E3 /* Pods-CoreSmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmartTests.release.xcconfig"; path = "Target Support Files/Pods-CoreSmartTests/Pods-CoreSmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA77BAFFA9EC8C336E685DE0 /* Pods-CoreSmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreSmartTests.debug.xcconfig"; path = "Target Support Files/Pods-CoreSmartTests/Pods-CoreSmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE117051DF3887D7018E90D5 /* Pods_CoreSmart_CoreSmartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreSmart_CoreSmartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A4670423CBC0DF00000796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8246CD5B8B3895D68F7A9F /* Pods_CoreSmart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4671D23CBC0E100000796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86473BB7EF1FE8C13AD7AB4B /* Pods_CoreSmartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4672823CBC0E100000796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF14AD3C8923D12EE636F9E /* Pods_CoreSmart_CoreSmartUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C15A5739FB719FA1E526DC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CBD6BE3BB2DDFC348F5C205 /* Pods-CoreSmart.debug.xcconfig */,
+				77D0A5B2C4F48FD05FA714EB /* Pods-CoreSmart.release.xcconfig */,
+				7EFA06B1891EB7CB872176A4 /* Pods-CoreSmart-CoreSmartUITests.debug.xcconfig */,
+				3175649852DAA51551F74657 /* Pods-CoreSmart-CoreSmartUITests.release.xcconfig */,
+				FA77BAFFA9EC8C336E685DE0 /* Pods-CoreSmartTests.debug.xcconfig */,
+				E1E97F81E9503AE7DC9CF0E3 /* Pods-CoreSmartTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D40549D723D37CB200195101 /* MembershipPlans */ = {
+			isa = PBXGroup;
+			children = (
+				D40549D823D37CC700195101 /* MembershipPlansViewController.swift */,
+			);
+			path = MembershipPlans;
+			sourceTree = "<group>";
+		};
+		D40549DA23D38D2700195101 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D40549DB23D38D5400195101 /* TabBarViewController.swift */,
+				D4A4670A23CBC0DF00000796 /* AppDelegate.swift */,
+				D4A4670C23CBC0DF00000796 /* SceneDelegate.swift */,
+				D4E0C98423D3EFA800AE5306 /* Extentions */,
+				D40549DD23D3DD7700195101 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D40549DD23D3DD7700195101 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D40BAFAC23D422EA00B4AC21 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				D40BAFAD23D4230A00B4AC21 /* FactsViewController.swift */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		D40BAFAF23D4264400B4AC21 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D40BAFB023D4265300B4AC21 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		D45F06DA23D1577F0022B768 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D4E0C98223D3E17200AE5306 /* HomeViewContoller.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D4A466FE23CBC0DF00000796 = {
+			isa = PBXGroup;
+			children = (
+				D4A4670923CBC0DF00000796 /* CoreSmart */,
+				D4A4672323CBC0E100000796 /* CoreSmartTests */,
+				D4A4672E23CBC0E100000796 /* CoreSmartUITests */,
+				D4A4670823CBC0DF00000796 /* Products */,
+				4C15A5739FB719FA1E526DC3 /* Pods */,
+				EBCF4939AC8DE38A27F72C83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A4670823CBC0DF00000796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A4670723CBC0DF00000796 /* CoreSmart.app */,
+				D4A4672023CBC0E100000796 /* CoreSmartTests.xctest */,
+				D4A4672B23CBC0E100000796 /* CoreSmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A4670923CBC0DF00000796 /* CoreSmart */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB01DE23D436260030B71B /* MyAccount */,
+				D40BAFAF23D4264400B4AC21 /* Camera */,
+				D40BAFAC23D422EA00B4AC21 /* Facts */,
+				D421471423D3FA6A00DB35EE /* GoogleService-Info.plist */,
+				D421471323D3F84800DB35EE /* CoreSmart.entitlements */,
+				D40549DA23D38D2700195101 /* Classes */,
+				D40549D723D37CB200195101 /* MembershipPlans */,
+				D45F06DA23D1577F0022B768 /* Home */,
+				D4A4671023CBC0DF00000796 /* Main.storyboard */,
+				D4A4671623CBC0E100000796 /* Assets.xcassets */,
+				D4A4671823CBC0E100000796 /* LaunchScreen.storyboard */,
+				D4A4671B23CBC0E100000796 /* Info.plist */,
+				D4A4671323CBC0DF00000796 /* CoreSmart.xcdatamodeld */,
+			);
+			path = CoreSmart;
+			sourceTree = "<group>";
+		};
+		D4A4672323CBC0E100000796 /* CoreSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A4672423CBC0E100000796 /* CoreSmartTests.swift */,
+				D4A4672623CBC0E100000796 /* Info.plist */,
+			);
+			path = CoreSmartTests;
+			sourceTree = "<group>";
+		};
+		D4A4672E23CBC0E100000796 /* CoreSmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A4672F23CBC0E100000796 /* CoreSmartUITests.swift */,
+				D4A4673123CBC0E100000796 /* Info.plist */,
+			);
+			path = CoreSmartUITests;
+			sourceTree = "<group>";
+		};
+		D4CB01DE23D436260030B71B /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB01DF23D4363A0030B71B /* MyAccountViewController.swift */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		D4E0C98423D3EFA800AE5306 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D4E0C98523D3EFBC00AE5306 /* UIViewController+Extentions.swift */,
+				D4E0C98723D3F02C00AE5306 /* UIScrollView+Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		EBCF4939AC8DE38A27F72C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC310E8D2CE9667F536D2D01 /* Pods_CoreSmart.framework */,
+				FE117051DF3887D7018E90D5 /* Pods_CoreSmart_CoreSmartUITests.framework */,
+				DF4F5060C374B33D3CEA28EA /* Pods_CoreSmartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A4670623CBC0DF00000796 /* CoreSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A4673423CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmart" */;
+			buildPhases = (
+				20319CE9324098CEDDC168C9 /* [CP] Check Pods Manifest.lock */,
+				D4A4670323CBC0DF00000796 /* Sources */,
+				D4A4670423CBC0DF00000796 /* Frameworks */,
+				D4A4670523CBC0DF00000796 /* Resources */,
+				D9E6AC912E41D981D0DCE956 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreSmart;
+			productName = CoreSmart;
+			productReference = D4A4670723CBC0DF00000796 /* CoreSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A4671F23CBC0E100000796 /* CoreSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A4673723CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmartTests" */;
+			buildPhases = (
+				6930A1F629A90CAC8D34FD2C /* [CP] Check Pods Manifest.lock */,
+				D4A4671C23CBC0E100000796 /* Sources */,
+				D4A4671D23CBC0E100000796 /* Frameworks */,
+				D4A4671E23CBC0E100000796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A4672223CBC0E100000796 /* PBXTargetDependency */,
+			);
+			name = CoreSmartTests;
+			productName = CoreSmartTests;
+			productReference = D4A4672023CBC0E100000796 /* CoreSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4A4672A23CBC0E100000796 /* CoreSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A4673A23CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmartUITests" */;
+			buildPhases = (
+				6B3D2B0FB8FF89916F818E50 /* [CP] Check Pods Manifest.lock */,
+				D4A4672723CBC0E100000796 /* Sources */,
+				D4A4672823CBC0E100000796 /* Frameworks */,
+				D4A4672923CBC0E100000796 /* Resources */,
+				927AE2C9C926D39D5D1C87AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A4672D23CBC0E100000796 /* PBXTargetDependency */,
+			);
+			name = CoreSmartUITests;
+			productName = CoreSmartUITests;
+			productReference = D4A4672B23CBC0E100000796 /* CoreSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A466FF23CBC0DF00000796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Philip;
+				TargetAttributes = {
+					D4A4670623CBC0DF00000796 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D4A4671F23CBC0E100000796 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D4A4670623CBC0DF00000796;
+					};
+					D4A4672A23CBC0E100000796 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D4A4670623CBC0DF00000796;
+					};
+				};
+			};
+			buildConfigurationList = D4A4670223CBC0DF00000796 /* Build configuration list for PBXProject "CoreSmart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A466FE23CBC0DF00000796;
+			productRefGroup = D4A4670823CBC0DF00000796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A4670623CBC0DF00000796 /* CoreSmart */,
+				D4A4671F23CBC0E100000796 /* CoreSmartTests */,
+				D4A4672A23CBC0E100000796 /* CoreSmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A4670523CBC0DF00000796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D421471523D3FA6A00DB35EE /* GoogleService-Info.plist in Resources */,
+				D4A4671A23CBC0E100000796 /* LaunchScreen.storyboard in Resources */,
+				D4A4671723CBC0E100000796 /* Assets.xcassets in Resources */,
+				D4A4671223CBC0DF00000796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4671E23CBC0E100000796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4672923CBC0E100000796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20319CE9324098CEDDC168C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreSmart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6930A1F629A90CAC8D34FD2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreSmartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3D2B0FB8FF89916F818E50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreSmart-CoreSmartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927AE2C9C926D39D5D1C87AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreSmart-CoreSmartUITests/Pods-CoreSmart-CoreSmartUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreSmart-CoreSmartUITests/Pods-CoreSmart-CoreSmartUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreSmart-CoreSmartUITests/Pods-CoreSmart-CoreSmartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E6AC912E41D981D0DCE956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreSmart/Pods-CoreSmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreSmart/Pods-CoreSmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreSmart/Pods-CoreSmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A4670323CBC0DF00000796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E0C98323D3E17200AE5306 /* HomeViewContoller.swift in Sources */,
+				D40BAFB123D4265300B4AC21 /* CameraViewController.swift in Sources */,
+				D40549D923D37CC700195101 /* MembershipPlansViewController.swift in Sources */,
+				D4A4670B23CBC0DF00000796 /* AppDelegate.swift in Sources */,
+				D40549DC23D38D5400195101 /* TabBarViewController.swift in Sources */,
+				D4CB01E023D4363A0030B71B /* MyAccountViewController.swift in Sources */,
+				D4A4671523CBC0DF00000796 /* CoreSmart.xcdatamodeld in Sources */,
+				D4E0C98823D3F02C00AE5306 /* UIScrollView+Extentions.swift in Sources */,
+				D4A4670D23CBC0DF00000796 /* SceneDelegate.swift in Sources */,
+				D4E0C98623D3EFBC00AE5306 /* UIViewController+Extentions.swift in Sources */,
+				D40BAFAE23D4230A00B4AC21 /* FactsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4671C23CBC0E100000796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A4672523CBC0E100000796 /* CoreSmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A4672723CBC0E100000796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A4673023CBC0E100000796 /* CoreSmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4A4672223CBC0E100000796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A4670623CBC0DF00000796 /* CoreSmart */;
+			targetProxy = D4A4672123CBC0E100000796 /* PBXContainerItemProxy */;
+		};
+		D4A4672D23CBC0E100000796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A4670623CBC0DF00000796 /* CoreSmart */;
+			targetProxy = D4A4672C23CBC0E100000796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4A4671023CBC0DF00000796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A4671123CBC0DF00000796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A4671823CBC0E100000796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A4671923CBC0E100000796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A4673223CBC0E100000796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A4673323CBC0E100000796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A4673523CBC0E100000796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBD6BE3BB2DDFC348F5C205 /* Pods-CoreSmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreSmart/CoreSmart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A4673623CBC0E100000796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D0A5B2C4F48FD05FA714EB /* Pods-CoreSmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreSmart/CoreSmart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4A4673823CBC0E100000796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA77BAFFA9EC8C336E685DE0 /* Pods-CoreSmartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreSmart.app/CoreSmart";
+			};
+			name = Debug;
+		};
+		D4A4673923CBC0E100000796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E97F81E9503AE7DC9CF0E3 /* Pods-CoreSmartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreSmart.app/CoreSmart";
+			};
+			name = Release;
+		};
+		D4A4673B23CBC0E100000796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFA06B1891EB7CB872176A4 /* Pods-CoreSmart-CoreSmartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreSmart;
+			};
+			name = Debug;
+		};
+		D4A4673C23CBC0E100000796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3175649852DAA51551F74657 /* Pods-CoreSmart-CoreSmartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G82ECD844;
+				INFOPLIST_FILE = CoreSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresmart.CoreSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreSmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A4670223CBC0DF00000796 /* Build configuration list for PBXProject "CoreSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A4673223CBC0E100000796 /* Debug */,
+				D4A4673323CBC0E100000796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4673423CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A4673523CBC0E100000796 /* Debug */,
+				D4A4673623CBC0E100000796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4673723CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A4673823CBC0E100000796 /* Debug */,
+				D4A4673923CBC0E100000796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4673A23CBC0E100000796 /* Build configuration list for PBXNativeTarget "CoreSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A4673B23CBC0E100000796 /* Debug */,
+				D4A4673C23CBC0E100000796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4A4671323CBC0DF00000796 /* CoreSmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4A4671423CBC0DF00000796 /* CoreSmart.xcdatamodel */,
+			);
+			currentVersion = D4A4671423CBC0DF00000796 /* CoreSmart.xcdatamodel */;
+			path = CoreSmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4A466FF23CBC0DF00000796 /* Project object */;
+}

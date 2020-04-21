@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>10270123328-hioieet2f61hsb3gas102bjokdhp46tv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.10270123328-hioieet2f61hsb3gas102bjokdhp46tv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMqyqR-flCEsIFVvPW5yvuyOpnEosuqkM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>10270123328</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.coresmart.CoreSmart</string>
+	<key>PROJECT_ID</key>
+	<string>coresmart-8c46b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>coresmart-8c46b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:10270123328:ios:d2c767bbd6ad96e16886a5</string>
+	<key>DATABASE_URL</key>
+	<string>https://coresmart-8c46b.firebaseio.com</string>
+</dict>
+</plist>
